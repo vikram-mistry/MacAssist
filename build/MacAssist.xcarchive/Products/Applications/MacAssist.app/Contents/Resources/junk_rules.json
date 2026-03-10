@@ -1,0 +1,149 @@
+{
+    "version": "1.0",
+    "rules": [
+        {
+            "id": "user_caches",
+            "category": "Caches",
+            "description": "User application caches",
+            "pattern": "~/Library/Caches/*",
+            "severity": "safe",
+            "recursive": true
+        },
+        {
+            "id": "system_caches",
+            "category": "Caches",
+            "description": "System-level caches",
+            "pattern": "/Library/Caches/*",
+            "severity": "caution",
+            "recursive": true
+        },
+        {
+            "id": "user_logs",
+            "category": "Logs",
+            "description": "User application logs",
+            "pattern": "~/Library/Logs/*",
+            "severity": "safe",
+            "recursive": true
+        },
+        {
+            "id": "system_logs",
+            "category": "Logs",
+            "description": "System-level logs",
+            "pattern": "/Library/Logs/*",
+            "severity": "caution",
+            "recursive": true
+        },
+        {
+            "id": "xcode_derived_data",
+            "category": "Developer",
+            "description": "Xcode derived data and build artifacts",
+            "pattern": "~/Library/Developer/Xcode/DerivedData/*",
+            "severity": "safe",
+            "recursive": true
+        },
+        {
+            "id": "xcode_archives",
+            "category": "Developer",
+            "description": "Xcode archived builds",
+            "pattern": "~/Library/Developer/Xcode/Archives/*",
+            "severity": "caution",
+            "recursive": true
+        },
+        {
+            "id": "simulator_data",
+            "category": "Developer",
+            "description": "iOS Simulator data",
+            "pattern": "~/Library/Developer/CoreSimulator/*",
+            "severity": "caution",
+            "recursive": true
+        },
+        {
+            "id": "app_support_caches",
+            "category": "Caches",
+            "description": "Application support cache directories",
+            "pattern": "~/Library/Application Support/*/Cache/*",
+            "severity": "safe",
+            "recursive": true
+        },
+        {
+            "id": "app_support_logs",
+            "category": "Logs",
+            "description": "Application support log directories",
+            "pattern": "~/Library/Application Support/*/Logs/*",
+            "severity": "safe",
+            "recursive": true
+        },
+        {
+            "id": "temp_files",
+            "category": "Temporary",
+            "description": "Temporary file directories",
+            "pattern": "/tmp/*",
+            "severity": "safe",
+            "recursive": false
+        },
+        {
+            "id": "var_tmp",
+            "category": "Temporary",
+            "description": "System variable temporary files",
+            "pattern": "/var/tmp/*",
+            "severity": "caution",
+            "recursive": false
+        },
+        {
+            "id": "trash",
+            "category": "Trash",
+            "description": "User Trash contents",
+            "pattern": "~/.Trash/*",
+            "severity": "safe",
+            "recursive": true
+        },
+        {
+            "id": "safari_cache",
+            "category": "Caches",
+            "description": "Safari browser cache",
+            "pattern": "~/Library/Caches/com.apple.Safari/*",
+            "severity": "safe",
+            "recursive": true
+        },
+        {
+            "id": "chrome_cache",
+            "category": "Caches",
+            "description": "Google Chrome browser cache",
+            "pattern": "~/Library/Caches/Google/Chrome/*",
+            "severity": "safe",
+            "recursive": true
+        },
+        {
+            "id": "broken_preferences",
+            "category": "Preferences",
+            "description": "Orphaned preference files",
+            "pattern": "~/Library/Preferences/*.plist",
+            "severity": "caution",
+            "recursive": false
+        },
+        {
+            "id": "swift_package_cache",
+            "category": "Developer",
+            "description": "Swift Package Manager cache",
+            "pattern": "~/Library/Caches/org.swift.swiftpm/*",
+            "severity": "safe",
+            "recursive": true
+        },
+        {
+            "id": "cocoapods_cache",
+            "category": "Developer",
+            "description": "CocoaPods cache",
+            "pattern": "~/Library/Caches/CocoaPods/*",
+            "severity": "safe",
+            "recursive": true
+        },
+        {
+            "id": "homebrew_cache",
+            "category": "Developer",
+            "description": "Homebrew download cache",
+            "pattern": "~/Library/Caches/Homebrew/*",
+            "severity": "safe",
+            "recursive": true
+        }
+    ]
+}

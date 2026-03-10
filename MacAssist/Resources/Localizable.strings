@@ -1,0 +1,73 @@
+/* MacAssist Localizable Strings */
+
+// General
+"app.name" = "MacAssist";
+"app.tagline" = "System Maintenance & Storage Intelligence";
+
+// Sidebar
+"sidebar.dashboard" = "Dashboard";
+"sidebar.smartClean" = "Smart Clean";
+"sidebar.junkCleaner" = "Junk Cleaner";
+"sidebar.storageAnalyzer" = "Storage Analyzer";
+"sidebar.applications" = "Applications";
+"sidebar.startupItems" = "Startup Items";
+"sidebar.settings" = "Settings";
+
+// Dashboard
+"dashboard.systemHealth" = "System Health";
+"dashboard.storageUsed" = "Storage Used";
+"dashboard.reclaimable" = "Reclaimable Space";
+"dashboard.lastScan" = "Last Scan";
+"dashboard.quickScan" = "Quick Scan";
+
+// Smart Clean
+"smartClean.title" = "Smart Clean";
+"smartClean.description" = "Scan and clean all junk in one pass";
+"smartClean.scanning" = "Scanning…";
+"smartClean.complete" = "Scan Complete";
+"smartClean.clean" = "Clean Selected";
+"smartClean.review" = "Review Items";
+
+// Junk Cleaner
+"junkCleaner.title" = "Junk Cleaner";
+"junkCleaner.caches" = "Caches";
+"junkCleaner.logs" = "Logs";
+"junkCleaner.temporary" = "Temporary Files";
+"junkCleaner.preferences" = "Broken Preferences";
+"junkCleaner.appSupport" = "Unused App Support";
+
+// Storage Analyzer
+"storageAnalyzer.title" = "Storage Analyzer";
+"storageAnalyzer.treemap" = "Treemap";
+"storageAnalyzer.fileList" = "File List";
+"storageAnalyzer.directoryTree" = "Directory Tree";
+
+// Applications
+"apps.title" = "Applications";
+"apps.uninstall" = "Uninstall";
+"apps.deepUninstall" = "Deep Uninstall";
+"apps.lastOpened" = "Last Opened";
+
+// Startup Items
+"startup.title" = "Startup Items";
+"startup.launchAgents" = "Launch Agents";
+"startup.loginItems" = "Login Items";
+"startup.enable" = "Enable";
+"startup.disable" = "Disable";
+"startup.remove" = "Remove";
+
+// Actions
+"action.scan" = "Scan";
+"action.clean" = "Clean";
+"action.delete" = "Delete";
+"action.cancel" = "Cancel";
+"action.confirm" = "Confirm";
+"action.selectAll" = "Select All";
+"action.deselectAll" = "Deselect All";
+
+// Status
+"status.ready" = "Ready";
+"status.scanning" = "Scanning…";
+"status.cleaning" = "Cleaning…";
+"status.complete" = "Complete";
+"status.error" = "Error";
