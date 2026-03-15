@@ -12,6 +12,33 @@ MacAssist is a comprehensive, elegant system utility and cleaning application bu
 *   **Developer Cleanup**: A dedicated cleanup engine targeting leftover developer cache files, Xcode Derived Data, old archives, and simulator files that quickly gobble up gigabytes of storage.
 *   **Actionable Insights**: Gives peace of mind by explaining exactly what is being deleted and why it's completely safe to do so.
 
+## 🖼 Screenshots
+
+<div align="center">
+  <h3>Dashboard</h3>
+  <img src="Screenshots/Dashboard.png" width="800" alt="MacAssist Dashboard">
+</div>
+
+<div align="center">
+  <h3>Smart Clean</h3>
+  <img src="Screenshots/SmartClean.png" width="800" alt="Smart Clean">
+</div>
+
+<div align="center">
+  <h3>Storage Analyzer</h3>
+  <img src="Screenshots/StorageAnalyzer.png" width="800" alt="Storage Analyzer">
+</div>
+
+<div align="center">
+  <h3>File Organiser</h3>
+  <img src="Screenshots/FileOrganiser.png" width="800" alt="File Organiser">
+</div>
+
+<div align="center">
+  <h3>App Manager</h3>
+  <img src="Screenshots/Applications.png" width="800" alt="App Manager">
+</div>
+
 ## 🛠 Tech Stack
 
 *   **Language**: Swift
