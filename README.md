@@ -16,7 +16,7 @@ MacAssist is a comprehensive, elegant system utility and cleaning application bu
 
 <div align="center">
   <h3>Dashboard Main Screen</h3>
-  <img src="Screenshots/Dashboard.png" width="800" alt="MacAssist Dashboard">
+  <img src="Screenshots/DashboardMain.png" width="800" alt="MacAssist Dashboard">
 </div>
 
 <div align="center">
