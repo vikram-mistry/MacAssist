@@ -4,6 +4,7 @@ MacAssist is a comprehensive, elegant system utility and cleaning application bu
 
 ## 🚀 Features
 
+*   **Battery Information**: * **Battery Information**: Obtain a comprehensive view of Mac battery data including AC power adaptor wattage (slow or fast), charge limit information, charging time estimates for 80% and 100%, battery health, cycle count, condition, warning level (if service is due), and state of charge (on battery, AC adaptor and current percentage).
 *   **Smart Clean & Junk Cleaner**: Automatically analyze the system for unnecessary files such as unneeded application caches, logs, and temporary files. Safely reclaims valuable disk space in a single click.
 *   **Large & Duplicate File Finder**: Rapidly identify and eliminate space-consuming duplicate files or unusually large files scattered across your Mac. Includes a full Storage Analyzer for a clear view of what's taking up space.
 *   **File Organiser**: Keep your Desktop, Downloads, and Documents folders neat. The File Organiser automates sorting files into categorized folders, coming with historical tracking for piece of mind and easy reversals.
